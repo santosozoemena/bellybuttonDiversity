@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belly button </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hot Finds</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <div class="container">
+
+
+    <div class="jumbotron">
+      <h2>Belly Button Biodiversity</h1>
+        <h3>SELECT Sample:</h3>
+      <select id="selDataset" onchange="optionChanged(this.value)"></select>
+
+
+    </div>
+    </div>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="{{ url_for('static', filename='belly2.js')}}"></script>
+
+
+  </body>
+</html>
